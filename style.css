@@ -1,40 +1,39 @@
 body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-  }
-  section{
-    height: 500px;
-    padding-bottom: 150px;
-  }
-.half-width{
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+section {
+  height: 500px;
+  padding-bottom: 150px;
+}
+.half-width {
   width: 40%;
   float: left;
   margin-left: 5%;
   padding-left: 2%;
 }
-h1{
-    font-size: 50px;
-  }
-h1 span{
+h1 {
+  font-size: 50px;
+}
+h1 span {
   color: orange;
 }
-.half-width img{
+.half-width img {
   width: 100%;
   margin-right: 0%;
 }
-.link-button{
- 
-    text-decoration: none;
-    background-image: linear-gradient(orange,tomato);
-    color: white;
-    border-radius: 30px;
-    padding: 15px 20px 15px 20px;
-    font-size: 20px;
-    margin-top: 30px;
-    display: inline-block;
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  color: white;
+  border-radius: 30px;
+  padding: 15px 20px 15px 20px;
+  font-size: 20px;
+  margin-top: 30px;
+  display: inline-block;
 }
 /* 2nd section */
-.about-me{
+.about-me {
   background-image: url("images/shapes/7.png");
   background-repeat: no-repeat;
   background-position: left;
@@ -42,31 +41,33 @@ h1 span{
   margin-left: 0;
   padding: 5%;
 }
-.about-me img{
+.about-me img {
   display: flex;
   width: 100%;
   margin-left: 0%;
   padding: 5%;
 }
 
-section .My-recipies{
+section .My-recipies {
   display: flex;
   box-shadow: 5px 7px 40px gray;
   height: 80%;
 }
-.recipi-text{
+.recipi-text {
   text-align: center;
   padding-left: 25%;
   padding-right: 25%;
 }
-.Recipi{
+.Recipi {
   display: flex;
-  padding: 80px;
+  padding: 10px;
+  width: 33%;
 }
 .Recipi img {
   max-height: 100%;
-  max-width: 100%;
+  width: 33%;
   border-radius: 10px;
+  padding: 10px;
 }
 .Recipi p {
   color: black;
@@ -77,35 +78,35 @@ section .My-recipies{
   font-size: 30px;
 }
 
-
 .R-width {
   background-color: white;
   width: 33%;
   padding: 10px;
-  margin-right: 5%;
-  margin-left: 5%;
+  margin-right: 10%;
+  margin-left: 10%;
   border-radius: 10px;
   box-shadow: rgba(89, 119, 252, 0.5) 0px 14px 28px;
 }
 .recipi-details {
-  margin-top: 30px;
+  margin-top: 10px;
+  width: 33%;
+  padding: 10px;
 }
 /*footer-section*/
-#Food-Villag{
+#Food-Villag {
   text-align: center;
   color: aquamarine;
   margin-top: 200px;
+  margin-bottom: 50%;
   padding-top: 50px;
 }
 footer p {
   text-align: center;
-  font-size:20px;
+  font-size: 20px;
   margin-top: 5px;
 }
-.footer{
-  background-color:honeydew;
+.footer {
+  background-color: brown;
   padding-bottom: 50px;
   margin-top: 100px;
 }
-
-
