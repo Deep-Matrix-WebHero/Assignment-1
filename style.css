@@ -1,0 +1,30 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+  }
+  h1{
+    font-size: 50px;
+  }
+  p{
+    font-size: 30px;  
+  }
+.color-orange{
+    color: orange;
+}
+.half-width{
+  padding: 5%;
+  text-align: justify;
+  text-align: left;
+}
+.half-width img{
+  padding: 5%;
+ position: right;
+}
+
+footer p{
+  text-align: center;
+}
+footer h1{
+  text-align: center;
+}
+
