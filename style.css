@@ -2,29 +2,49 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
   }
-  h1{
+  section{
+    height: 500px;
+    padding-bottom: 150px;
+  }
+.half-width{
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+h1{
     font-size: 50px;
   }
-  p{
-    font-size: 30px;  
-  }
-.color-orange{
-    color: orange;
-}
-.half-width{
-  padding: 5%;
-  text-align: justify;
-  text-align: left;
+h1 span{
+  color: orange;
 }
 .half-width img{
-  padding: 5%;
- position: right;
+  width: 100%;
+  margin-right: 0%;
 }
+.link-button{
+  text-decoration: none;
+  background: linear-gradient(45deg, yellow,orange);
+  padding: 10px 40px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+
 
 footer p{
   text-align: center;
 }
 footer h1{
   text-align: center;
+  color:red;
 }
+footer p{
+  text-align: center;
+  color: white;
+}
+footer{
+  background-color: black;
+}
+
 
